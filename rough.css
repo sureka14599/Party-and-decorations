@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.side-border {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 35px;
+  background-color: #000000;
+  z-index: 999;
+}
+
+.left-border {
+  left: 0;
+}
+
+.right-border {
+  right: 0;
+}
+
+.nav-link:hover {
+  color: #000000 !important;
+  text-decoration: underline;
+  font-weight: bolder;
+}
